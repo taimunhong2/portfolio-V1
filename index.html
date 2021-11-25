@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "style.css" rel = "stylesheet"/>
+    <link href= "index.css" rel = "stylesheet"/>
+    <link href= "about.css" rel = "stylesheet"/>
+    <link href= "contact.css" rel = "stylesheet"/>
+    <link href= "footer.css" rel = "stylesheet"/>
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet"
+      ></link>
+    <title>Tai Mun Hong - My portfolio</title>
+</head>
+<body class = "container full-height-grow">
+    <header class= "main-header">
+        <a href = "#" class= "home">
+            <div class = "website-name">Tai Mun Hong</div>
+        </a>
+        
+        <nav class = "main-nav">
+            <ul>
+                <li>
+                    <a href = "#about">About</a>
+                </li>
+                <li>
+                    <a href = "#project">Project</a>
+                </li>
+                <li>
+                    <a href = "#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+
+    <!-- home start section -->
+    <section id = "home" class= "home-main-section">
+        <div class= "home-profile">
+        <div class= "img-wrapper">
+            <img src = "./images/Home-page-picture.png" alt = "home-image"class= "home-image"/>
+        </div>
+        <div class = "call-to-action">
+            <h1 class = "title">
+                Hi, Im
+                <span class = "name"></span>
+            </h1>
+            
+            <span class = "subtitle">Junior Software Engineer 
+                <span style = "color: #d65a31">|</span> Fresh Graduate</span>
+        </div>
+    </div>
+    </section>
+
+    <!-- home end section -->
+
+    <!-- about section -->
+    <section id = "about" class = "about-main-section">
+        <div class = "about-main">
+            <div>
+                <h1 class = "about-me">
+                    <span>About Me</span>
+                    
+                </h1>
+            </div>
+         <div class = "about-outer-profile-card"> 
+        <div class = "about-profile-card">
+            <div class= "about-profile-image">
+                <img src = "./images/About-me-picture.png" alt = "about-me-image" class = "about-image"></img>
+            </div>
+            <div class = "about-content">
+                <div>
+                <div class = "orangeline"></div>
+                <h1 class = "about-caption"> Hi, Im Mun Hong</h1>
+                <p class = "about-description">I'm a final year Software Engineering student in Monash University Malaysia is looking for an internship in the Software Engineering field that will allow me to explore more career choices in the Software Engineering sector.</p>
+                <a href="./download/RESUME LATEST.pdf" target= "_blank" class="button">Resume</a>
+            </div>
+            </div>
+        </div>  
+        </div></div>
+        
+    </section>
+    <!-- about end section -->
+
+    <!-- Project start section -->
+    <!-- Project end section -->
+
+    <!-- Contact start section -->
+    <section id = "contact" class = "contact-main-section">
+        <div class = "contact-main">
+            <div>
+                <h1 class = "contact-me-title">
+                    <span>Contact Me</span>
+                </h1>
+            </div>
+            <div class = "contact-outer-card">
+                <div class= "contact-details">
+                    <img src = "./images/undraw_uploading_re_okvh.svg" alt = "about-me-image" class = "about-image" style = "color:#d65a31"></img>
+                </div>
+                <div class = "contact-container-card">
+                
+                    <form class = "form" action="/send" method="POST">
+
+                      <input type="text" id="name" name="name" placeholder="Your name.." required>
+  
+                      <input type="text" id="email" name="email" placeholder="Email" required>
+
+                      <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                      <textarea id="subject" name="message" placeholder="Write something.." style="height:170px" required></textarea>
+                      <input class="button" type="submit" value="Submit">
+                    </form>
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- contact end section -->
+        
+    <!-- footer start section -->
+    <section>
+        <div class=social>
+            <a
+              href="https://www.linkedin.com/in/mun-hong/"
+              class="fa fa-linkedin"
+              target="_blank"
+              rel="noreferrer"
+              
+            ></a>
+
+            <a
+              href="https://www.instagram.com/taimunhong"
+              class="fa fa-instagram"
+              target="_blank"
+              rel="noreferrer"
+  
+            ></a>
+            <a
+              href="https://www.facebook.com/tai.munhong"
+              class="fa fa-facebook"
+              target="_blank"
+              rel="noreferrer"
+  
+            ></a>
+            <a
+              href="https://github.com/taimunhong2?tab=repositories"
+              class="fa fa-github"
+              target="_blank"
+              rel="noreferrer"
+  
+            ></a>
+          </div>
+        <div class = "copyright">
+            <p>Created and Designed by Tai Mun Hong © 2021</p>
+          </div>
+    </section>
+    <!-- footer end section  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".name", {
+            strings: ["Mun Hong.", "a Full Stack Developer", "a Mobile Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        })
+    </script>
+</body>
+</html>
+

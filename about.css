@@ -1,0 +1,85 @@
+.about-main-section {
+  background: #393e46;
+  color: "white";
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-profile-card {
+  background: white;
+  height: auto;
+  color: black;
+  display: block;
+}
+
+.about-outer-profile-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-main {
+  max-width: 1200px;
+}
+
+.about-title {
+  font-weight: 500;
+  font-size: 36px;
+  font-style: normal;
+}
+
+.about-me {
+  font-weight: 500;
+  font-size: 36px;
+  font-style: normal;
+}
+.about-description {
+  margin-right: 3rem;
+}
+
+.about-image {
+  width: 400px;
+  height: 550px;
+  display: block;
+}
+
+.about-profile-image {
+  vertical-align: top;
+}
+
+.about-profile-card {
+  display: flex;
+}
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.button {
+  background-color: #d65a31;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: gray;
+  transition: 0.5s ease;
+}
+
+.orangeline {
+  background-color: #d65a31;
+  width: 20px;
+  height: 80px;
+  float: right;
+}
