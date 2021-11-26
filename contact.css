@@ -1,7 +1,7 @@
 .contact-main-section {
   background: #393e46;
   color: "white";
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,4 +54,10 @@ textarea {
   margin: 2rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
+}
+
+.contact-image {
+  max-width: 400px;
+  width: auto;
+  height: auto;
 }

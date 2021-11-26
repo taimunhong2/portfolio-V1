@@ -46,6 +46,10 @@ body {
   color: #d65a31;
 }
 
+.main-nav a:active {
+  color: #d65a31;
+}
+
 .main-header {
   display: flex;
   justify-content: space-around;
