@@ -43,6 +43,8 @@ textarea {
 
 .contact-outer-card {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-details {
