@@ -66,3 +66,23 @@ body {
 .fwh-slide {
   height: 100vh;
 }
+
+.main-nav .icon {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  /* .main-nav .nav-about {
+    display: none;
+  }
+  .main-nav .nav-project {
+    display: none;
+  }
+  .main-nav .nav-contact {
+    display: none;
+  } */
+  .main-nav .icon {
+    float: right;
+    display: block;
+  }
+}

@@ -61,3 +61,44 @@
   background-repeat: no-repeat;
   background-position: left;
 } */
+
+@media (max-width: 400px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .home-profile {
+    display: block;
+    margin-top: 4rem;
+  }
+  .img-wrapper {
+    max-width: 240px;
+    border: 3px solid #d65a31;
+    margin-left: 70px;
+  }
+  .home-main-section .call-to-action {
+    margin-top: 30px;
+  }
+  .home-image {
+    width: 240px;
+    height: 300px;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}

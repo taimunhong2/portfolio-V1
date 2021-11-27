@@ -1,7 +1,7 @@
 .contact-main-section {
   background: #393e46;
   color: "white";
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,4 +62,23 @@ textarea {
   max-width: 400px;
   width: auto;
   height: auto;
+}
+
+@media (max-width: 400px) {
+  .contact-outer-card {
+    display: block;
+    box-sizing: border-box;
+  }
+  .contact-details {
+    margin-right: 0;
+  }
+  .contact-container-card {
+    margin-left: 0;
+  }
+  .contact-outer-card {
+    margin: 20px 20px 20px 20px;
+  }
+  .contact-me-title {
+    font-size: 26px;
+  }
 }

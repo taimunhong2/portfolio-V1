@@ -58,3 +58,20 @@
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 400px) {
+  .card-project-title {
+    font-size: 20px;
+  }
+  .card-project-desc {
+    font-size: 16px;
+  }
+  .title-wrapper {
+    margin-left: 20px;
+  }
+  .wrap {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}

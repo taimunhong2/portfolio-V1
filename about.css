@@ -1,7 +1,7 @@
 .about-main-section {
   background: #393e46;
   color: "white";
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,4 +85,44 @@
   width: 20px;
   height: 80px;
   float: right;
+}
+
+@media (max-width: 400px) {
+  .about-profile-card {
+    background: white;
+    height: auto;
+    color: black;
+    display: inline-block;
+    margin: 0px 20px 20px;
+  }
+  .about-image {
+    width: 100%;
+    min-height: 300px;
+    max-height: 400px;
+    display: block;
+  }
+  .orangeline {
+    display: none;
+  }
+  .about-caption {
+    font-size: 20px;
+  }
+  .about-description {
+    font-size: 16px;
+  }
+  .about-me {
+    font-size: 26px;
+  }
+  .button {
+    padding: 10px 26px;
+  }
+  .about-content {
+    margin-left: 0;
+  }
+  .about-content-box {
+    padding: 20px;
+  }
+  .about-description {
+    margin-right: 0;
+  }
 }
