@@ -16,14 +16,14 @@ emailJS for email services
 Design Thought process
 
 - Minimalistic design 
--- Minimalist design looks nice and clean 
---Reduce the unnecessary things in the websites
+Minimalist design looks nice and clean 
+Reduce the unnecessary things in the websites
 
--Responsive
---All websites should be responsive as everybody will be viewing the website with different devices
+- Responsive
+All websites should be responsive as everybody will be viewing the website with different devices
 
--Dark Mode
---Personally like dark mode as dark mode is easier for the eyes 
+- Dark Mode
+Personally like dark mode as dark mode is easier for the eyes 
 
 Method:
 1. I designed my portfolio using Figma [https://www.figma.com/file/1N24Oeys6Zy2ZlGsKQm9Fd/New-portfolio-design?node-id=0%3A1]
