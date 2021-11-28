@@ -59,6 +59,11 @@
   align-items: center;
 }
 
+.read-more {
+  font-style: italic;
+  color: #d65a31;
+}
+
 @media (max-width: 900px) {
   .title-wrapper {
     margin-left: 20px;
