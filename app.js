@@ -21,6 +21,16 @@ function sendEmail() {
     )
 }
 
+//  For mobile version hamburger
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const mainNav = document.getElementsByClassName('main-nav')[0]
+toggleButton.addEventListener('click', () => {
+  mainNav.classList.toggle('active')
+})
+
+
+
+
 
 
 
