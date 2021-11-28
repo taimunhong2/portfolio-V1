@@ -43,7 +43,7 @@
 .about-image {
   min-width: 300px;
   max-width: 450px;
-  min-height: 450px;
+  min-height: 100%;
   height: auto;
   display: block;
 }
@@ -87,7 +87,15 @@
   float: right;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 900px) {
+  .about-image {
+    min-width: 300px;
+    min-height: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
   .about-profile-card {
     background: white;
     height: auto;
@@ -96,7 +104,7 @@
     margin: 0px 20px 20px;
   }
   .about-image {
-    width: 100%;
+    min-width: 100%;
     min-height: 300px;
     max-height: 400px;
     display: block;

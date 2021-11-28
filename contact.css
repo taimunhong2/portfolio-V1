@@ -64,13 +64,23 @@ textarea {
   height: auto;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 900px) {
+  .contact-image {
+    max-width: 300px;
+  }
+  .contact-container-card {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
   .contact-outer-card {
     display: block;
     box-sizing: border-box;
   }
   .contact-details {
     margin-right: 0;
+    text-align: center;
     width: auto;
   }
   .contact-container-card {
