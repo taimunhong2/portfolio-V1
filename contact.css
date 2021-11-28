@@ -71,6 +71,7 @@ textarea {
   }
   .contact-details {
     margin-right: 0;
+    width: auto;
   }
   .contact-container-card {
     margin-left: 0;
@@ -80,5 +81,9 @@ textarea {
   }
   .contact-me-title {
     font-size: 26px;
+  }
+  .contact-image {
+    width: 100%;
+    height: auto;
   }
 }
