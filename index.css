@@ -13,7 +13,6 @@
   width: 370px;
   height: 450px;
   transform: translate(5%, -5%);
-  filter: grayscale(100%);
   transition: 0.5s ease;
 }
 
